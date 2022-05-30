@@ -1,0 +1,47 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #111;
+    color: white;
+    height: 100vh;
+}
+
+.list-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #2D407D;
+    padding: 1em;
+    border-radius: 0.4em;
+    height: 100vh;
+}
+
+.list-wrapper ul {
+    font-size: large;
+    padding: 0.5em;
+    list-style-type: none;
+    background-color: #FFF;
+    border-radius: 0.4em;
+    color: black;
+    width: 100%;
+}
+
+.tasklist-item {
+    background-color: #EEE;
+    border-radius: 0.4em;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    border-radius: 0.4em;
+    width: 60%;
+    background-color: #577bf0;
+    border: none;
+    padding: 0.6em;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }

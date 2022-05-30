@@ -1,0 +1,5 @@
+rootProject.name = 'tms'
+include 'RestServer'
+include 'Model'
+include 'Persistance'
+
